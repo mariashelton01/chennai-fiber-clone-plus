@@ -29,51 +29,6 @@ const Hero = () => {
             </div>
           </div>
         </div>
-        
-        <div className="mt-12 grid grid-cols-2 md:grid-cols-6 gap-4 animate-fade-in delay-700">
-          <div className="bg-white/10 backdrop-blur-sm rounded p-2 hover-scale transition-all duration-300">
-            <img 
-              src="https://images.unsplash.com/photo-1531297484001-80022131f5a1?w=400&h=300&fit=crop" 
-              alt="WiFi Router Technology" 
-              className="w-full h-16 object-cover rounded"
-            />
-          </div>
-          <div className="bg-white/10 backdrop-blur-sm rounded p-2 hover-scale transition-all duration-300">
-            <img 
-              src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=300&fit=crop" 
-              alt="Internet Connection" 
-              className="w-full h-16 object-cover rounded"
-            />
-          </div>
-          <div className="bg-white/10 backdrop-blur-sm rounded p-2 hover-scale transition-all duration-300">
-            <img 
-              src="https://images.unsplash.com/photo-1518770660439-4636190af475?w=400&h=300&fit=crop" 
-              alt="Network Circuit Board" 
-              className="w-full h-16 object-cover rounded"
-            />
-          </div>
-          <div className="bg-white/10 backdrop-blur-sm rounded p-2 hover-scale transition-all duration-300">
-            <img 
-              src="https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7?w=400&h=300&fit=crop" 
-              alt="Network Configuration" 
-              className="w-full h-16 object-cover rounded"
-            />
-          </div>
-          <div className="bg-white/10 backdrop-blur-sm rounded p-2 hover-scale transition-all duration-300">
-            <img 
-              src="https://images.unsplash.com/photo-1531297484001-80022131f5a1?w=400&h=300&fit=crop" 
-              alt="WiFi Technology" 
-              className="w-full h-16 object-cover rounded"
-            />
-          </div>
-          <div className="bg-white/10 backdrop-blur-sm rounded p-2 hover-scale transition-all duration-300">
-            <img 
-              src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=300&fit=crop" 
-              alt="Digital Connection" 
-              className="w-full h-16 object-cover rounded"
-            />
-          </div>
-        </div>
       </div>
     </section>
   );

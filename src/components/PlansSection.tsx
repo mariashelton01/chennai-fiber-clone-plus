@@ -1,3 +1,4 @@
+
 import PlanCard from './PlanCard';
 
 const PlansSection = () => {
@@ -127,61 +128,63 @@ const PlansSection = () => {
           </h2>
         </div>
 
-        <div className="grid lg:grid-cols-4 gap-8">
-          <div className="animate-slide-in-left">
-            <div className="bg-yellow-400 text-black text-center py-3 rounded-t-lg font-bold text-lg mb-4 hover-scale transition-all duration-300">
-              SPEED
+        <div className="max-w-7xl mx-auto">
+          <div className="grid lg:grid-cols-4 gap-8 justify-center">
+            <div className="animate-slide-in-left">
+              <div className="bg-yellow-400 text-black text-center py-3 rounded-t-lg font-bold text-lg mb-4 hover-scale transition-all duration-300">
+                SPEED
+              </div>
+              <div className="space-y-4">
+                {speedPlans.map((plan, index) => (
+                  <div key={index} className="animate-fade-in" style={{ animationDelay: `${index * 100}ms` }}>
+                    <PlanCard plan={plan} />
+                  </div>
+                ))}
+              </div>
             </div>
-            <div className="space-y-4">
-              {speedPlans.map((plan, index) => (
-                <div key={index} className="animate-fade-in" style={{ animationDelay: `${index * 100}ms` }}>
-                  <PlanCard plan={plan} />
-                </div>
-              ))}
-            </div>
-          </div>
 
-          <div className="animate-slide-in-left" style={{ animationDelay: '200ms' }}>
-            <div className="bg-yellow-400 text-black text-center py-3 rounded-t-lg font-bold text-lg mb-4 hover-scale transition-all duration-300">
-              ENTERTAINMENT
+            <div className="animate-slide-in-left" style={{ animationDelay: '200ms' }}>
+              <div className="bg-yellow-400 text-black text-center py-3 rounded-t-lg font-bold text-lg mb-4 hover-scale transition-all duration-300">
+                ENTERTAINMENT
+              </div>
+              <div className="space-y-4">
+                {entertainmentPlans.map((plan, index) => (
+                  <div key={index} className="animate-fade-in" style={{ animationDelay: `${(index + 4) * 100}ms` }}>
+                    <PlanCard plan={plan} />
+                  </div>
+                ))}
+              </div>
             </div>
-            <div className="space-y-4">
-              {entertainmentPlans.map((plan, index) => (
-                <div key={index} className="animate-fade-in" style={{ animationDelay: `${(index + 4) * 100}ms` }}>
-                  <PlanCard plan={plan} />
-                </div>
-              ))}
-            </div>
-          </div>
 
-          <div className="animate-slide-in-right" style={{ animationDelay: '400ms' }}>
-            <div className="bg-yellow-400 text-black text-center py-3 rounded-t-lg font-bold text-lg mb-4 hover-scale transition-all duration-300">
-              PREMIUM ENTERTAINMENT
+            <div className="animate-slide-in-right" style={{ animationDelay: '400ms' }}>
+              <div className="bg-yellow-400 text-black text-center py-3 rounded-t-lg font-bold text-lg mb-4 hover-scale transition-all duration-300">
+                PREMIUM ENTERTAINMENT
+              </div>
+              <div className="space-y-4">
+                {premiumPlans.map((plan, index) => (
+                  <div key={index} className="animate-fade-in" style={{ animationDelay: `${(index + 7) * 100}ms` }}>
+                    <PlanCard plan={plan} />
+                  </div>
+                ))}
+              </div>
             </div>
-            <div className="space-y-4">
-              {premiumPlans.map((plan, index) => (
-                <div key={index} className="animate-fade-in" style={{ animationDelay: `${(index + 7) * 100}ms` }}>
-                  <PlanCard plan={plan} />
-                </div>
-              ))}
-            </div>
-          </div>
 
-          <div className="animate-slide-in-right" style={{ animationDelay: '600ms' }}>
-            <div className="bg-yellow-400 text-black text-center py-3 rounded-t-lg font-bold text-lg mb-4 hover-scale transition-all duration-300">
-              MESH
-            </div>
-            <div className="space-y-4">
-              {meshPlans.map((plan, index) => (
-                <div key={index} className="animate-fade-in" style={{ animationDelay: `${(index + 11) * 100}ms` }}>
-                  <PlanCard plan={plan} />
-                </div>
-              ))}
+            <div className="animate-slide-in-right" style={{ animationDelay: '600ms' }}>
+              <div className="bg-yellow-400 text-black text-center py-3 rounded-t-lg font-bold text-lg mb-4 hover-scale transition-all duration-300">
+                MESH
+              </div>
+              <div className="space-y-4">
+                {meshPlans.map((plan, index) => (
+                  <div key={index} className="animate-fade-in" style={{ animationDelay: `${(index + 11) * 100}ms` }}>
+                    <PlanCard plan={plan} />
+                  </div>
+                ))}
+              </div>
             </div>
           </div>
         </div>
 
-        <div className="mt-8 bg-blue-600 text-white text-center py-3 rounded-lg hover-scale transition-all duration-300 animate-fade-in" style={{ animationDelay: '1000ms' }}>
+        <div className="mt-8 bg-blue-600 text-white text-center py-3 rounded-lg hover-scale transition-all duration-300 animate-fade-in max-w-2xl mx-auto" style={{ animationDelay: '1000ms' }}>
           <p className="text-lg font-semibold">Amazon Fire Stick available @₹750*</p>
         </div>
       </div>
