@@ -1,26 +1,27 @@
 
 const Hero = () => {
   return (
-    <section className="bg-gradient-to-r from-red-600 to-blue-600 text-white py-16 md:py-24">
-      <div className="container mx-auto px-4">
+    <section className="bg-gradient-to-r from-red-600 to-blue-600 text-white py-16 md:py-24 relative overflow-hidden">
+      <div className="absolute inset-0 bg-black/10"></div>
+      <div className="container mx-auto px-4 relative z-10">
         <div className="grid md:grid-cols-2 gap-8 items-center">
-          <div className="text-center md:text-left">
-            <h1 className="text-4xl md:text-6xl font-bold mb-6">
+          <div className="text-center md:text-left animate-fade-in">
+            <h1 className="text-4xl md:text-6xl font-bold mb-6 animate-scale-in">
               Launching Now!
             </h1>
-            <p className="text-xl md:text-2xl mb-8">
+            <p className="text-xl md:text-2xl mb-8 animate-fade-in delay-200">
               Nonstop Entertainment & Unstoppable Speeds.
             </p>
-            <div className="bg-yellow-400 text-black px-6 py-3 rounded-lg inline-block text-xl font-bold">
+            <div className="bg-yellow-400 text-black px-6 py-3 rounded-lg inline-block text-xl font-bold hover-scale animate-fade-in delay-300">
               75 Mbps* @₹749
             </div>
-            <div className="mt-6">
+            <div className="mt-6 animate-fade-in delay-500">
               <p className="text-lg">www.actcorp.in/amazon-prime</p>
             </div>
           </div>
           
-          <div className="text-center">
-            <div className="bg-white/10 backdrop-blur-sm rounded-lg p-6">
+          <div className="text-center animate-scale-in delay-300">
+            <div className="bg-white/10 backdrop-blur-sm rounded-lg p-6 hover-scale transition-all duration-300">
               <h3 className="text-2xl font-bold mb-4">Uninterrupted internet with</h3>
               <div className="text-4xl font-bold mb-4">ACT FIBERNET</div>
               <h3 className="text-2xl font-bold mb-4">Uninterrupted entertainment with</h3>
@@ -29,24 +30,48 @@ const Hero = () => {
           </div>
         </div>
         
-        <div className="mt-12 grid grid-cols-2 md:grid-cols-6 gap-4">
-          <div className="bg-white/10 backdrop-blur-sm rounded p-2">
-            <img src="/placeholder.svg" alt="Entertainment" className="w-full h-16 object-cover rounded" />
+        <div className="mt-12 grid grid-cols-2 md:grid-cols-6 gap-4 animate-fade-in delay-700">
+          <div className="bg-white/10 backdrop-blur-sm rounded p-2 hover-scale transition-all duration-300">
+            <img 
+              src="https://images.unsplash.com/photo-1605810230434-7631ac76ec81?w=400&h=300&fit=crop" 
+              alt="Streaming Services" 
+              className="w-full h-16 object-cover rounded"
+            />
           </div>
-          <div className="bg-white/10 backdrop-blur-sm rounded p-2">
-            <img src="/placeholder.svg" alt="Entertainment" className="w-full h-16 object-cover rounded" />
+          <div className="bg-white/10 backdrop-blur-sm rounded p-2 hover-scale transition-all duration-300">
+            <img 
+              src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=400&h=300&fit=crop" 
+              alt="Entertainment" 
+              className="w-full h-16 object-cover rounded"
+            />
           </div>
-          <div className="bg-white/10 backdrop-blur-sm rounded p-2">
-            <img src="/placeholder.svg" alt="Entertainment" className="w-full h-16 object-cover rounded" />
+          <div className="bg-white/10 backdrop-blur-sm rounded p-2 hover-scale transition-all duration-300">
+            <img 
+              src="https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?w=400&h=300&fit=crop" 
+              alt="Technology" 
+              className="w-full h-16 object-cover rounded"
+            />
           </div>
-          <div className="bg-white/10 backdrop-blur-sm rounded p-2">
-            <img src="/placeholder.svg" alt="Entertainment" className="w-full h-16 object-cover rounded" />
+          <div className="bg-white/10 backdrop-blur-sm rounded p-2 hover-scale transition-all duration-300">
+            <img 
+              src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=400&h=300&fit=crop" 
+              alt="Gaming" 
+              className="w-full h-16 object-cover rounded"
+            />
           </div>
-          <div className="bg-white/10 backdrop-blur-sm rounded p-2">
-            <img src="/placeholder.svg" alt="Entertainment" className="w-full h-16 object-cover rounded" />
+          <div className="bg-white/10 backdrop-blur-sm rounded p-2 hover-scale transition-all duration-300">
+            <img 
+              src="https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=400&h=300&fit=crop" 
+              alt="Movies" 
+              className="w-full h-16 object-cover rounded"
+            />
           </div>
-          <div className="bg-white/10 backdrop-blur-sm rounded p-2">
-            <img src="/placeholder.svg" alt="Entertainment" className="w-full h-16 object-cover rounded" />
+          <div className="bg-white/10 backdrop-blur-sm rounded p-2 hover-scale transition-all duration-300">
+            <img 
+              src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=400&h=300&fit=crop" 
+              alt="Smart TV" 
+              className="w-full h-16 object-cover rounded"
+            />
           </div>
         </div>
       </div>

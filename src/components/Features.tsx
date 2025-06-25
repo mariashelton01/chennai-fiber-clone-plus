@@ -28,15 +28,19 @@ const Features = () => {
   return (
     <section className="py-16 bg-white">
       <div className="container mx-auto px-4">
-        <div className="text-center mb-12">
+        <div className="text-center mb-12 animate-fade-in">
           <h2 className="text-4xl font-bold text-gray-800 mb-4">Why Choose ACT Fibernet?</h2>
           <p className="text-xl text-gray-600">Experience the difference with our premium services</p>
         </div>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
           {features.map((feature, index) => (
-            <div key={index} className="text-center p-6 rounded-lg hover:shadow-lg transition-shadow">
-              <div className="flex justify-center mb-4">
+            <div 
+              key={index} 
+              className="text-center p-6 rounded-lg hover:shadow-xl transition-all duration-300 hover-scale animate-fade-in"
+              style={{ animationDelay: `${index * 200}ms` }}
+            >
+              <div className="flex justify-center mb-4 transform hover:scale-110 transition-transform duration-300">
                 {feature.icon}
               </div>
               <h3 className="text-xl font-semibold text-gray-800 mb-3">{feature.title}</h3>
