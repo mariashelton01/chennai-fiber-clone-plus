@@ -1,4 +1,3 @@
-
 import PlanCard from './PlanCard';
 
 const PlansSection = () => {
@@ -126,7 +125,6 @@ const PlansSection = () => {
           <h2 className="text-4xl font-bold text-gray-800 mb-4">
             SMART Wi-Fi PLANS
           </h2>
-          <p className="text-xl text-gray-600">designed for your connected life</p>
         </div>
 
         <div className="grid lg:grid-cols-4 gap-8">

@@ -10,7 +10,7 @@ const Hero = () => {
               Launching Now!
             </h1>
             <p className="text-xl md:text-2xl mb-8 animate-fade-in delay-200">
-              Nonstop Entertainment & Unstoppable Speeds.
+              Now get incredibly fast speeds and reliable service with super ott deals, ACT now
             </p>
             <div className="bg-yellow-400 text-black px-6 py-3 rounded-lg inline-block text-xl font-bold hover-scale animate-fade-in delay-300">
               75 Mbps* @₹749
@@ -33,43 +33,43 @@ const Hero = () => {
         <div className="mt-12 grid grid-cols-2 md:grid-cols-6 gap-4 animate-fade-in delay-700">
           <div className="bg-white/10 backdrop-blur-sm rounded p-2 hover-scale transition-all duration-300">
             <img 
-              src="https://images.unsplash.com/photo-1605810230434-7631ac76ec81?w=400&h=300&fit=crop" 
-              alt="Streaming Services" 
+              src="https://images.unsplash.com/photo-1531297484001-80022131f5a1?w=400&h=300&fit=crop" 
+              alt="WiFi Router Technology" 
               className="w-full h-16 object-cover rounded"
             />
           </div>
           <div className="bg-white/10 backdrop-blur-sm rounded p-2 hover-scale transition-all duration-300">
             <img 
-              src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=400&h=300&fit=crop" 
-              alt="Entertainment" 
+              src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=300&fit=crop" 
+              alt="Internet Connection" 
               className="w-full h-16 object-cover rounded"
             />
           </div>
           <div className="bg-white/10 backdrop-blur-sm rounded p-2 hover-scale transition-all duration-300">
             <img 
-              src="https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?w=400&h=300&fit=crop" 
-              alt="Technology" 
+              src="https://images.unsplash.com/photo-1518770660439-4636190af475?w=400&h=300&fit=crop" 
+              alt="Network Circuit Board" 
               className="w-full h-16 object-cover rounded"
             />
           </div>
           <div className="bg-white/10 backdrop-blur-sm rounded p-2 hover-scale transition-all duration-300">
             <img 
-              src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=400&h=300&fit=crop" 
-              alt="Gaming" 
+              src="https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7?w=400&h=300&fit=crop" 
+              alt="Network Configuration" 
               className="w-full h-16 object-cover rounded"
             />
           </div>
           <div className="bg-white/10 backdrop-blur-sm rounded p-2 hover-scale transition-all duration-300">
             <img 
-              src="https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=400&h=300&fit=crop" 
-              alt="Movies" 
+              src="https://images.unsplash.com/photo-1531297484001-80022131f5a1?w=400&h=300&fit=crop" 
+              alt="WiFi Technology" 
               className="w-full h-16 object-cover rounded"
             />
           </div>
           <div className="bg-white/10 backdrop-blur-sm rounded p-2 hover-scale transition-all duration-300">
             <img 
-              src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=400&h=300&fit=crop" 
-              alt="Smart TV" 
+              src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=300&fit=crop" 
+              alt="Digital Connection" 
               className="w-full h-16 object-cover rounded"
             />
           </div>
