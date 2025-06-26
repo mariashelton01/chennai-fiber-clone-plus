@@ -18,6 +18,10 @@ const Hero = () => {
             <div className="mt-6 animate-fade-in delay-500">
               <p className="text-lg">www.actcorp.in/amazon-prime</p>
             </div>
+            <div className="mt-4 animate-fade-in delay-700">
+              <p className="text-lg font-semibold">Service Area:</p>
+              <p className="text-base">Chennai, Thirunindravur, Thiruvallur, Kanchipuram, Chengalpattu</p>
+            </div>
           </div>
           
           <div className="text-center animate-scale-in delay-300">

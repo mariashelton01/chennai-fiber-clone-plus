@@ -1,4 +1,3 @@
-
 import PlanCard from './PlanCard';
 
 const PlansSection = () => {
@@ -39,21 +38,21 @@ const PlansSection = () => {
       speed: "50 Mbps*",
       price: "₹675",
       category: "ENTERTAINMENT",
-      features: ["FREE WIFI 400+ TV CHANNELS"]
+      features: ["FREE WIFI 400+ TV CHANNELS + OTT"]
     },
     {
       name: "ACT STARTER COMBO PLUS + STREAMING",
       speed: "75 Mbps*",
       price: "₹875",
       category: "ENTERTAINMENT",
-      features: ["FREE WIFI 400+ TV CHANNELS"]
+      features: ["FREE WIFI 400+ TV CHANNELS + OTT"]
     },
     {
       name: "ACT CHN SUPERSTAR",
       speed: "200 Mbps*",
       price: "₹1075",
       category: "ENTERTAINMENT",
-      features: ["FREE WIFI 400+ TV CHANNELS"]
+      features: ["FREE WIFI 400+ TV CHANNELS + OTT"]
     }
   ];
 
@@ -63,28 +62,28 @@ const PlansSection = () => {
       speed: "75 Mbps*",
       price: "₹749",
       category: "PREMIUM ENTERTAINMENT",
-      features: ["400+ TV CHANNELS"]
+      features: ["400+ TV CHANNELS + OTT"]
     },
     {
       name: "ACT BASIC",
       speed: "150 Mbps*",
       price: "₹999",
       category: "PREMIUM ENTERTAINMENT",
-      features: ["400+ TV CHANNELS"]
+      features: ["400+ TV CHANNELS + OTT"]
     },
     {
       name: "ACT STREAMING",
       speed: "150 Mbps*",
       price: "₹1099",
       category: "PREMIUM ENTERTAINMENT",
-      features: ["400+ TV CHANNELS"]
+      features: ["400+ TV CHANNELS + OTT"]
     },
     {
       name: "ACT RUSH",
       speed: "400 Mbps*",
       price: "₹1399",
       category: "PREMIUM ENTERTAINMENT",
-      features: ["400+ TV CHANNELS"]
+      features: ["400+ TV CHANNELS + OTT"]
     }
   ];
 
@@ -101,7 +100,7 @@ const PlansSection = () => {
       speed: "150 Mbps*",
       price: "₹1199",
       category: "MESH",
-      features: ["400+ TV CHANNELS", "DUAL BAND MESH PODS"]
+      features: ["400+ TV CHANNELS + OTT", "DUAL BAND MESH PODS"]
     },
     {
       name: "ACT MESH STORM",
@@ -115,7 +114,7 @@ const PlansSection = () => {
       speed: "400 Mbps*",
       price: "₹1499",
       category: "MESH",
-      features: ["400+ TV CHANNELS", "DUAL BAND MESH PODS"]
+      features: ["400+ TV CHANNELS + OTT", "DUAL BAND MESH PODS"]
     }
   ];
 
@@ -145,7 +144,7 @@ const PlansSection = () => {
 
             <div className="animate-slide-in-left" style={{ animationDelay: '200ms' }}>
               <div className="bg-yellow-400 text-black text-center py-3 rounded-t-lg font-bold text-lg mb-4 hover-scale transition-all duration-300">
-                ENTERTAINMENT
+                ENTERTAINMENT + OTT
               </div>
               <div className="space-y-4">
                 {entertainmentPlans.map((plan, index) => (
@@ -158,7 +157,7 @@ const PlansSection = () => {
 
             <div className="animate-slide-in-right" style={{ animationDelay: '400ms' }}>
               <div className="bg-yellow-400 text-black text-center py-3 rounded-t-lg font-bold text-lg mb-4 hover-scale transition-all duration-300">
-                PREMIUM ENTERTAINMENT
+                PREMIUM ENTERTAINMENT + OTT
               </div>
               <div className="space-y-4">
                 {premiumPlans.map((plan, index) => (
