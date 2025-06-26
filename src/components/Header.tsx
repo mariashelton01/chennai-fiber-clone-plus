@@ -34,7 +34,7 @@ const Header = () => {
           <div className="hidden md:flex items-center space-x-4 animate-fade-in">
             <div className="flex items-center space-x-2 text-red-600 hover-scale transition-all duration-300">
               <Phone size={20} />
-              <span className="font-semibold">91 21 21 21 21</span>
+              <span className="font-semibold">8438015779</span>
             </div>
           </div>
 
@@ -55,7 +55,7 @@ const Header = () => {
               <button onClick={() => scrollToSection('features')} className="block w-full text-left text-gray-700 hover:text-red-600 transition-colors">Features</button>
               <div className="flex items-center space-x-2 text-red-600 pt-2">
                 <Phone size={20} />
-                <span className="font-semibold">91 21 21 21 21</span>
+                <span className="font-semibold">8438015779</span>
               </div>
             </nav>
           </div>

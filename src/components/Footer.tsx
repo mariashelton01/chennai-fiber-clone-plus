@@ -36,6 +36,10 @@ const Footer = () => {
               <li><a href="#" className="text-gray-300 hover:text-white transition-colors">Entertainment</a></li>
               <li><a href="#" className="text-gray-300 hover:text-white transition-colors">Mesh Network</a></li>
             </ul>
+            <div className="mt-6">
+              <h4 className="text-md font-semibold mb-2">Service Areas</h4>
+              <p className="text-gray-300 text-sm">Chennai, Thirunindravur, Thiruvallur, Kanchipuram, Chengalpattu</p>
+            </div>
           </div>
 
           <div>

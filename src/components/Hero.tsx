@@ -13,7 +13,7 @@ const Hero = () => {
               Now get incredibly fast speeds and reliable service with super ott deals, ACT now
             </p>
             <div className="bg-yellow-400 text-black px-6 py-3 rounded-lg inline-block text-xl font-bold hover-scale animate-fade-in delay-300">
-              75 Mbps* @₹749
+              50 Mbps* @₹549
             </div>
             <div className="mt-6 animate-fade-in delay-500">
               <p className="text-lg">www.actcorp.in/amazon-prime</p>
