@@ -1,3 +1,4 @@
+
 import { useState } from 'react';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
@@ -217,7 +218,7 @@ const EnquiryForm = () => {
                       </div>
                       <div>
                         <p className="font-semibold text-gray-800">Service Areas</p>
-                        <p className="text-gray-600">Chennai & Surrounding Areas</p>
+                        <p className="text-gray-600">Chennai, Thirunindravur, Thiruvallur, Kanchipuram, Chengalpattu</p>
                       </div>
                     </div>
                   </div>
