@@ -1,4 +1,3 @@
-
 import { useState } from 'react';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
@@ -7,7 +6,7 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/com
 import { Form, FormControl, FormField, FormItem, FormLabel, FormMessage } from '@/components/ui/form';
 import { useForm } from 'react-hook-form';
 import { toast } from 'sonner';
-import { Phone, Mail, MapPin } from 'lucide-react';
+import { Phone, Mail, MapPin, MessageCircle } from 'lucide-react';
 
 interface EnquiryFormData {
   name: string;
@@ -42,6 +41,14 @@ const EnquiryForm = () => {
     toast.success('Thank you for your enquiry! We will contact you soon.');
     form.reset();
     setIsSubmitting(false);
+  };
+
+  const handleWhatsAppClick = () => {
+    const whatsappNumber = "918438015779";
+    const message = "Hi! I'm interested in ACT Fibernet plans. Can you help me?";
+    const encodedMessage = encodeURIComponent(message);
+    const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${encodedMessage}`;
+    window.open(whatsappUrl, '_blank');
   };
 
   return (
@@ -198,6 +205,16 @@ const EnquiryForm = () => {
                       </div>
                       <div>
                         <p className="font-semibold text-gray-800">Call Us</p>
+                        <p className="text-gray-600">8438015779</p>
+                      </div>
+                    </div>
+
+                    <div className="flex items-center space-x-4 cursor-pointer hover:bg-gray-50 p-2 rounded-lg transition-colors" onClick={handleWhatsAppClick}>
+                      <div className="bg-green-100 p-3 rounded-full">
+                        <MessageCircle className="w-6 h-6 text-green-600" />
+                      </div>
+                      <div>
+                        <p className="font-semibold text-gray-800">WhatsApp Us</p>
                         <p className="text-gray-600">8438015779</p>
                       </div>
                     </div>

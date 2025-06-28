@@ -1,7 +1,15 @@
 
-import { Phone, Mail, MapPin } from 'lucide-react';
+import { Phone, Mail, MapPin, MessageCircle } from 'lucide-react';
 
 const Footer = () => {
+  const handleWhatsAppClick = () => {
+    const whatsappNumber = "918438015779";
+    const message = "Hi! I'm interested in ACT Fibernet plans. Can you help me?";
+    const encodedMessage = encodeURIComponent(message);
+    const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${encodedMessage}`;
+    window.open(whatsappUrl, '_blank');
+  };
+
   return (
     <footer className="bg-gray-800 text-white py-12">
       <div className="container mx-auto px-4">
@@ -49,13 +57,20 @@ const Footer = () => {
                 <Phone size={16} />
                 <span className="text-gray-300">8438015779</span>
               </div>
+              <div 
+                className="flex items-center space-x-3 cursor-pointer hover:text-green-400 transition-colors"
+                onClick={handleWhatsAppClick}
+              >
+                <MessageCircle size={16} />
+                <span className="text-gray-300">WhatsApp: 8438015779</span>
+              </div>
               <div className="flex items-center space-x-3">
                 <Mail size={16} />
                 <span className="text-gray-300">fibernet_thirunindravur_2025@yahoo.com</span>
               </div>
               <div className="flex items-center space-x-3">
                 <MapPin size={16} />
-                <span className="text-gray-300">Chennai, India</span>
+                <span className="text-gray-300">Chennai, Thirunindravur, Thiruvallur, Kanchipuram, Chengalpattu</span>
               </div>
             </div>
           </div>

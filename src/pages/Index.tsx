@@ -8,6 +8,7 @@ import PromoBanner from '../components/PromoBanner';
 import EnquiryForm from '../components/EnquiryForm';
 import Footer from '../components/Footer';
 import LoadingScreen from '../components/LoadingScreen';
+import WhatsAppButton from '../components/WhatsAppButton';
 
 const Index = () => {
   const [isLoading, setIsLoading] = useState(true);
@@ -31,6 +32,7 @@ const Index = () => {
         <EnquiryForm />
       </main>
       <Footer />
+      <WhatsAppButton />
     </div>
   );
 };
